@@ -1,0 +1,28 @@
+knaPI_x_y_z_1 em que:
+A primeira linha de cada arquivo possui dois inteiros:
+1. Arquivos knaPI_1 : correlacionam fracamente os valores de peso e valor dos itens.
+2. Arquivos knaPI_2 : correlacionam de maneria moderada os valores de peso e valor dos itens.
+3. Arquivos knaPI_3 : correlacionam de maneira forte os valores de peso e valor dos itens.
+
+x corresponde ao grau de correlação entre peso e valor dos itens:
+x=1 para baixa correlação.
+x=2 para média correlação.
+x=3 para alta correlação.
+
+y corresponde à quantidade de itens.
+z corresponde ao peso máximo de cada item. No caso desse dataset, z é sempre 1000.
+
+1 - valor
+2 - peso
+
+
+Fazer 3 algoritmos:
+1. Uma que prioritariamente insere os itens de menor peso, procurando maximizar o
+número de itens inseridos.
+
+2. Outra que prioritariamente insere os itens de melhor relação de benefício/custo.
+
+3. E uma abordagem baseada em Programação Dinâmica.
+
+
+
